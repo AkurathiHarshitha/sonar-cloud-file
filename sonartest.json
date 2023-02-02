@@ -7,7 +7,7 @@
         "CidrBlock": {
           "Ref": "VpcCIDR"
         },
-        "InstanceTenancy": "default",09
+        "InstanceTenancy": "default",
         "EnableDnsSupport": "true",
         "EnableDnsHostnames": "true"
       }
@@ -50,7 +50,7 @@
         "CidrBlock": {
           "Fn::Cidr": [
             {
-              "Ref": "VpcCIDR",9
+              "Ref": "VpcCIDR",
             },
             8,
             2
