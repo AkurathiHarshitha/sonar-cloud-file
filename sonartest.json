@@ -46,7 +46,7 @@
       "Properties": {
         "VpcId": {
           "Ref": "Vpc"
-        },
+        }
         "CidrBlock": {
           "Fn::Cidr": [
             {
